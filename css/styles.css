@@ -103,5 +103,8 @@ body {
 .footer {
   background-color: #001c29ff;
 }
+.footer__footerDeveloperParagraph {
+  background-color: aqua;
+}
 
 /*# sourceMappingURL=styles.css.map */
