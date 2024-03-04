@@ -18,5 +18,11 @@ body {
 .paragraph {
 	&--footerDeveloper {
 		color: $cf-silver;
+		font-size: clamp(1.2rem, 4.3vw, 1.4rem);
+		line-height: 1.2;
+	}
+	&--footerDeveloperName {
+		color: $cf-honoluluBlue;
+		font-weight: 700;
 	}
 }

@@ -1,6 +1,7 @@
 .footer {
       background-color: $cp-richBlack;
       &__footerDeveloperParagraph {
-            background-color: aqua;
+            @include displayFlexColumn;
+            gap: .25rem;
       }
 }
