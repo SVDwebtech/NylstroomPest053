@@ -1,5 +1,23 @@
 .footer {
+      @include displayFlexColumn;
+      gap: 2rem;
       background-color: $cp-richBlack;
+      &__footerNavigationContainer {
+            @include displayFlexColumn;
+            gap: 2rem;
+      }
+      &__footerSocialMediaContainer, &__footerWebsiteNavigationContainer, &__footerAddressContainer, &__footerLegalNoticeContainer {
+            @include displayFlexColumn;
+            gap: 1rem;
+      }
+      &__footerSocialMediaList {
+            @include displayFlexRow;
+            gap: 3rem;
+      }
+      &__footerNavlist {
+            @include displayFlexColumn;
+            gap: .25rem;
+      }
       &__footerDeveloperParagraph {
             @include displayFlexColumn;
             gap: .25rem;

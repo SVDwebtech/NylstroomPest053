@@ -1,10 +1,10 @@
 	// H1 Heading
 	// font-family: "Montserrat", sans-serif; font-weight: 900;
 	
-	// H2, H3 & H4 Headings
+	// H2 Headings
 	// font-family: "Days One", sans-serif;  font-weight: 400;
 	
-	// Body Text
+	// H3, H4 & Body Text
 	// font-family: "Lato", sans-serif; font-weight: 400 & 700;
 	
 body {
@@ -15,14 +15,29 @@ body {
 	line-height: 1.6;
 }
 
+.headingH3 {
+	color: $cf-honoluluBlue;
+	font-family: "Lato", sans-serif; 
+	font-weight: 700;
+	line-height: 1.2;
+	letter-spacing: 3px;
+}
+
 .paragraph {
+	line-height: 1.2;
+	&--address {
+		color: $cf-silver;
+	}
 	&--footerDeveloper {
 		color: $cf-silver;
 		font-size: clamp(1.2rem, 4.3vw, 1.4rem);
-		line-height: 1.2;
 	}
-	&--footerDeveloperName {
-		color: $cf-honoluluBlue;
-		font-weight: 700;
+}
+
+.navlink {
+	&--footerNavlink {
+		color: $cf-emerald;
+		text-decoration: underline;
+		text-underline-offset: 3px;
 	}
 }
