@@ -9,6 +9,7 @@
       &__contactArticle {
             @include displayFlexColumn;
             gap: .5rem;
+            width: 100%;
       }
       &__contactDetailItem {
             @include displayFlexRow;
@@ -21,5 +22,16 @@
       &__contactDetailIcon--address {
             width: calc(#{$contactDetailIconSizeWidth} - .5rem);
             height: calc(#{$contactDetailIconSizeHeight} - .5rem);
+      }
+      &__contactGoogleMapsIframeContainer {
+            border: 2px solid $cp-neonBlue;
+            width: min(100%, 45rem);
+            padding: .25rem;
+            margin-top: .75rem;
+      }
+      &__contactGoogleMapsIframe {
+            display: block;
+            width: 100%;
+            height: auto;
       }
 }
