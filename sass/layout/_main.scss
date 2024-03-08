@@ -1,2 +1,21 @@
 main {
 }
+
+.socialMedia {
+      @include displayFlexColumn;
+      width: min(100%, 45rem);
+      padding: 0 1rem;
+      margin: 0 auto 5rem;
+      &__sectionContentWrapper {
+            @include displayFlexColumn;
+      }
+      &__socialMediaArticle {
+            @include displayFlexColumn;
+            gap: .5rem;
+      }
+      &__socialMediaDetailIcon {
+            width: $contactDetailIconSizeWidth;
+            height: $contactDetailIconSizeHeight;
+            margin-top: .5rem;
+      }
+}
