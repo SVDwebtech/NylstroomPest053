@@ -1,4 +1,14 @@
 .contact {
+      @include displayFlexColumn;
+      width: min(100%, 45rem);
+      margin: 0 auto 5rem;
+      &__sectionContentWrapper {
+            @include displayFlexColumn;
+      }
+      &__contactArticle {
+            @include displayFlexColumn;
+            gap: .5rem;
+      }
       &__contactDetailItem {
             @include displayFlexRow;
             gap: .75rem;

@@ -5,29 +5,32 @@
 	// font-family: "Days One", sans-serif;  font-weight: 400;
 	
 	// H3, H4 & Body Text
-	// font-family: "Lato", sans-serif; font-weight: 400 & 700;
+	// font-family: "Lato", sans-serif; font-weight: 400; 700 & 900;
 	
 body {
 	color: $cf-richBlack;
 	font-family: "Lato", sans-serif;
 	font-size: clamp(1.4rem, 4.5vw, 1.6rem);
-	font-weight: 400;
+	font-weight: 500;
 	line-height: 1.6;
 	text-align: center;
 }
 
 .headingH3 {
-	color: $cf-honoluluBlue;
+	color: $cf-shamrockGreen;
 	font-family: "Lato", sans-serif; 
-	font-weight: 700;
+	font-weight: 900;
 	line-height: 1.2;
 	letter-spacing: 3px;
 }
 
 .paragraph {
 	line-height: 1.2;
-	&--address {
-		color: $cf-silver;
+	&--contactArticle {
+		color: $cf-neonBlue;
+		font-weight: 700;
+		text-decoration: underline;
+		text-underline-offset: 2px;
 	}
 	&--footerDeveloper {
 		color: $cf-silver;
@@ -41,4 +44,7 @@ body {
 		text-decoration: underline;
 		text-underline-offset: 3px;
 	}
+}
+.contact {
+	font-style: normal;
 }
