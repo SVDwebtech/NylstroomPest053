@@ -1,0 +1,14 @@
+.contact {
+      &__contactDetailItem {
+            @include displayFlexRow;
+            gap: .75rem;
+      }
+      &__contactDetailIcon {
+            width: $contactDetailIconSizeWidth;
+            height: $contactDetailIconSizeHeight;
+      }
+      &__contactDetailIcon--address {
+            width: calc(#{$contactDetailIconSizeWidth} - .5rem);
+            height: calc(#{$contactDetailIconSizeHeight} - .5rem);
+      }
+}
