@@ -90,15 +90,48 @@ body {
 }
 
 .headingH3 {
-  color: #07964c;
+  color: #001c29ff;
   font-family: "Lato", sans-serif;
+  font-size: clamp(1.8rem, 6vw, 2rem);
   font-weight: 900;
   line-height: 1.2;
   letter-spacing: 3px;
 }
+.headingH3--servicesListItemHeading {
+  color: #0062ffff;
+  font-size: clamp(1.5rem, 5vw, 1.7rem);
+  text-align: left;
+  line-height: 1.1;
+}
+
+.headingH4 {
+  color: #001c29ff;
+  font-family: "Lato", sans-serif;
+  font-size: clamp(1.8rem, 6vw, 2rem);
+  font-weight: 900;
+  line-height: 1.2;
+  letter-spacing: 3px;
+}
+.headingH4--serviceAreasHeading {
+  color: #0062ffff;
+  font-size: clamp(1.5rem, 5vw, 1.7rem);
+  text-align: left;
+  line-height: 1.1;
+}
 
 .paragraph {
+  line-height: 1.6;
+}
+.paragraph--servicesListItemParagraph {
+  text-align: left;
   line-height: 1.2;
+}
+.paragraph--serviceAreaName {
+  text-align: left;
+}
+.paragraph__serviceAreaName--nylstroom, .paragraph__serviceAreaName--warmbad, .paragraph__serviceAreaName--vaalwater, .paragraph__serviceAreaName--naboom, .paragraph__serviceAreaName--leeupoort {
+  color: #001c29ff;
+  font-weight: 900;
 }
 .paragraph--contactArticle {
   color: #0062ffff;
@@ -109,6 +142,13 @@ body {
 .paragraph--footerDeveloper {
   color: #cececeff;
   font-size: clamp(1.2rem, 4.3vw, 1.4rem);
+}
+
+.btn--secondary {
+  color: #cececeff;
+  font-family: "Lato", sans-serif;
+  font-size: clamp(1.6rem, 5vw, 1.8rem);
+  font-weight: 700;
 }
 
 .navlink--footerNavlink {
@@ -127,6 +167,35 @@ body {
 
 .website-section-bottom-margin {
   margin-bottom: 5rem;
+}
+
+.btn {
+  border: 2px solid #898989;
+  border-radius: 0.45rem;
+  box-shadow: 0px 0px 12px 1px rgba(12, 12, 12, 0.25);
+  width: fit-content;
+  padding: 0.6em 0.85em;
+  margin: 0 auto;
+  cursor: pointer;
+  backface-visibility: hidden;
+  transition: all 0.2s;
+}
+.btn:link, .btn:visited {
+  text-decoration: none;
+  transform: translateY(0px);
+}
+.btn:active {
+  border-bottom: 2px solid #001c29ff;
+  border-right: 2px solid #001c29ff;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.7);
+  transform: translateY(-1px);
+}
+.btn--primary {
+  background-color: #0062ffff;
+}
+.btn--secondary {
+  background-color: #0062ff;
+  border: 1px solid #898989;
 }
 
 .contact {
@@ -262,6 +331,84 @@ body {
   width: 3.25rem;
   height: 3.25rem;
   margin-top: 0.5rem;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: min(100%, 45rem);
+  padding: 0 1rem;
+  margin: 0 auto 5rem;
+}
+.services__sectionContentWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  gap: 2rem;
+}
+.services__servicesList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.services__servicesListItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  align-items: flex-start;
+  gap: 0.5rem;
+  background-color: #b9b9b9;
+  border: 2px solid #0062ffff;
+  border-radius: none;
+  box-shadow: 0 0 12px 3px rgba(22, 22, 22, 0.35);
+  padding: 2rem;
+}
+.services__servicesArticle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  gap: 1.5rem;
+}
+.services__servicesArticle--serviceArea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  gap: 2rem;
+}
+.services__servicesArticleAreasListContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  align-items: flex-start;
+  gap: 0.5rem;
+  background-color: #b9b9b9;
+  border: 2px solid #0062ffff;
+  border-radius: none;
+  box-shadow: 0 0 12px 3px rgba(22, 22, 22, 0.35);
+  width: 100%;
+  padding: 2rem;
+}
+.services__serviceArticleImage {
+  display: block;
+  border: 2px solid #0062ffff;
+  width: 100%;
+  height: auto;
+  padding: 0.25rem;
 }
 
 /*# sourceMappingURL=styles.css.map */

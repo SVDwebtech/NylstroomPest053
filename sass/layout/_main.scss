@@ -19,3 +19,54 @@ main {
             margin-top: .5rem;
       }
 }
+.services {
+      @include displayFlexColumn;
+      width: min(100%, 45rem);
+      padding: 0 1rem;
+      margin: 0 auto 5rem;
+      &__sectionContentWrapper {
+            @include displayFlexColumn;
+            gap: 2rem;
+      }
+      &__servicesList {
+            @include displayFlexColumn;
+      }
+      &__servicesListItem {
+            @include displayFlexColumn;
+            align-items: flex-start;
+            gap: .5rem;
+            background-color: $cp-lightGrey;
+            border: 2px solid $cp-neonBlue;
+            border-radius: none;
+            box-shadow: $bs-dark;
+            padding: 2rem;
+      }
+      &__servicesArticle {
+            @include displayFlexColumn;
+            gap: 1.5rem;
+      }
+      &__servicesArticle--serviceArea {
+            @include displayFlexColumn;
+            gap: 2rem;
+      }
+      &__servicesArticleAreasListContainer {
+            @include displayFlexColumn;
+            align-items: flex-start;
+            gap: .5rem;
+            background-color: $cp-lightGrey;
+            border: 2px solid $cp-neonBlue;
+            border-radius: none;
+            box-shadow: $bs-dark;
+            width: 100%;
+            padding: 2rem;
+      }
+      &__serviceArticleImage {
+            display: block;
+            border: 2px solid $cp-neonBlue;
+            width: 100%;
+            height: auto;
+            padding: .25rem;
+
+      }
+      
+}

@@ -17,15 +17,49 @@ body {
 }
 
 .headingH3 {
-	color: $cf-shamrockGreen;
+	color: $cf-richBlack;
 	font-family: "Lato", sans-serif; 
+	font-size: clamp(1.8rem, 6vw, 2rem);
 	font-weight: 900;
 	line-height: 1.2;
 	letter-spacing: 3px;
+	&--servicesListItemHeading {
+		color: $cf-neonBlue;
+		font-size: clamp(1.5rem, 5vw, 1.7rem);
+		text-align: left;
+		line-height: 1.1;
+
+	}
+}
+.headingH4 {
+	color: $cf-richBlack;
+	font-family: "Lato", sans-serif; 
+	font-size: clamp(1.8rem, 6vw, 2rem);
+	font-weight: 900;
+	line-height: 1.2;
+	letter-spacing: 3px;
+	&--serviceAreasHeading {
+		color: $cf-neonBlue;
+		font-size: clamp(1.5rem, 5vw, 1.7rem);
+		text-align: left;
+		line-height: 1.1;
+
+	}
 }
 
 .paragraph {
-	line-height: 1.2;
+	line-height: 1.6;
+	&--servicesListItemParagraph {
+		text-align: left;
+		line-height: 1.2;
+	}
+	&--serviceAreaName {
+		text-align: left;
+	}
+	&__serviceAreaName--nylstroom, &__serviceAreaName--warmbad, &__serviceAreaName--vaalwater, &__serviceAreaName--naboom, &__serviceAreaName--leeupoort {
+		color: $cp-richBlack;
+		font-weight: 900;
+	} 
 	&--contactArticle {
 		color: $cf-neonBlue;
 		font-weight: 700;
@@ -35,6 +69,15 @@ body {
 	&--footerDeveloper {
 		color: $cf-silver;
 		font-size: clamp(1.2rem, 4.3vw, 1.4rem);
+	}
+}
+.btn {
+	&--secondary {
+		color: $cf-silver;
+		font-family: "Lato", sans-serif; 
+		font-size: clamp(1.6rem, 5vw, 1.8rem);
+		font-weight: 700;
+
 	}
 }
 
