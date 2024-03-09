@@ -70,3 +70,56 @@ main {
       }
       
 }
+.process {
+      @include displayFlexColumn;
+      width: min(100%, 45rem);
+      padding: 0 1rem;
+      margin: 0 auto 5rem;
+      &__sectionContentWrapper {
+            @include displayFlexColumn;
+            gap: 2rem;
+      }
+      &__processList {
+            @include displayFlexColumn;
+      }
+      &__processListItem {
+            @include displayFlexColumn;
+            gap: .5rem;
+            background-color: $cp-lightGrey;
+            border: 2px solid $cp-neonBlue;
+            // border-radius: 100%;
+            box-shadow: $bs-dark;
+            width: 100%;
+            // width: clamp(27rem, 85vw, 35rem);
+            // height: clamp(27rem, 85vw, 35rem);
+            padding: 2rem;
+      }
+      &__servicesArticle {
+            @include displayFlexColumn;
+            gap: 1.5rem;
+      }
+      &__servicesArticle--serviceArea {
+            @include displayFlexColumn;
+            gap: 2rem;
+      }
+      &__servicesArticleAreasListContainer {
+            @include displayFlexColumn;
+            align-items: flex-start;
+            gap: .5rem;
+            background-color: $cp-lightGrey;
+            border: 2px solid $cp-neonBlue;
+            border-radius: none;
+            box-shadow: $bs-dark;
+            width: 100%;
+            padding: 2rem;
+      }
+      &__serviceArticleImage {
+            display: block;
+            border: 2px solid $cp-neonBlue;
+            width: 100%;
+            height: auto;
+            padding: .25rem;
+
+      }
+      
+}

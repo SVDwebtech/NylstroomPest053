@@ -16,6 +16,15 @@ body {
 	text-align: center;
 }
 
+.headingH2 {
+	color: $cf-richBlack;
+	font-family: "Days One", sans-serif;  
+	font-size: clamp(2.2rem, 6.5vw, 2.4rem);
+	font-weight: 400;
+	line-height: 1.2;
+	letter-spacing: 3px;
+}
+
 .headingH3 {
 	color: $cf-richBlack;
 	font-family: "Lato", sans-serif; 
@@ -28,7 +37,12 @@ body {
 		font-size: clamp(1.5rem, 5vw, 1.7rem);
 		text-align: left;
 		line-height: 1.1;
-
+	}
+	&--processListItemHeading {
+		color: $cf-neonBlue;
+		font-size: clamp(1.5rem, 5vw, 1.7rem);
+		text-align: center;
+		line-height: 1.1;
 	}
 }
 .headingH4 {
