@@ -15,7 +15,9 @@ body {
 	line-height: 1.6;
 	text-align: center;
 }
+.herodHeading {
 
+}
 .headingH2 {
 	color: $cf-richBlack;
 	font-family: "Days One", sans-serif;  
@@ -24,7 +26,6 @@ body {
 	line-height: 1.2;
 	letter-spacing: 3px;
 }
-
 .headingH3 {
 	color: $cf-richBlack;
 	font-family: "Lato", sans-serif; 
@@ -60,7 +61,6 @@ body {
 
 	}
 }
-
 .paragraph {
 	line-height: 1.6;
 	&--servicesListItemParagraph {
@@ -94,7 +94,6 @@ body {
 
 	}
 }
-
 .navlink {
 	&--footerNavlink {
 		color: $cf-emerald;

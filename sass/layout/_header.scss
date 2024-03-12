@@ -1,2 +1,11 @@
 .header {    
 }
+.hero {
+      min-height: 95vh;
+      padding: 1rem;
+      &__heroLogoImg {
+            display: block;
+            width: min(100%, 45rem);
+            height: auto;
+      }
+}

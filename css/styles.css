@@ -317,6 +317,16 @@ body {
   gap: 0.25rem;
 }
 
+.hero {
+  min-height: 95vh;
+  padding: 1rem;
+}
+.hero__heroLogoImg {
+  display: block;
+  width: min(100%, 45rem);
+  height: auto;
+}
+
 .socialMedia {
   display: flex;
   flex-direction: column;
