@@ -15,8 +15,23 @@ body {
 	line-height: 1.6;
 	text-align: center;
 }
-.herodHeading {
-
+.heroHeading {
+	color: $cp-richBlack;
+	font-family: "Montserrat", sans-serif; 
+	font-size: clamp(1.8rem, 5vw, 2.4rem);
+	font-weight: 900;
+	text-transform: uppercase;
+	text-align: left;
+	letter-spacing: 1px;
+	line-height: 1.2;
+      &__heroHeadingByline {
+		font-family: "Lato", sans-serif; 
+		font-size: clamp(1.4rem, 5.5vw, 1.8rem);
+		font-weight: 700;
+		text-align: center;
+		text-transform: none;
+		line-height: 1.4;
+	}
 }
 .headingH2 {
 	color: $cf-richBlack;
@@ -86,12 +101,17 @@ body {
 	}
 }
 .btn {
+	&--primary {
+		color: $cf-silver;
+		font-family: "Lato", sans-serif; 
+		font-size: clamp(1.6rem, 5vw, 1.8rem);
+		font-weight: 700;
+	}
 	&--secondary {
 		color: $cf-silver;
 		font-family: "Lato", sans-serif; 
 		font-size: clamp(1.6rem, 5vw, 1.8rem);
 		font-weight: 700;
-
 	}
 }
 .navlink {

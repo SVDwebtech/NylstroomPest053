@@ -1,11 +1,25 @@
-.header {    
+.header { 
+
 }
 .hero {
+      @include displayFlexColumn;
+      width: min(100%, 45rem);
       min-height: 95vh;
       padding: 1rem;
-      &__heroLogoImg {
+      margin: 0 auto;
+      &__heroHeading {
+            @include displayFlexColumn;
+      }
+}
+.heroHeadingPrimary {
+      @include displayFlexRow;
+      gap: 1rem;
+      &__heroHeadingPrimaryLogoImg {
             display: block;
-            width: min(100%, 45rem);
+            width: clamp(4.5rem, 22vw, 6rem);
             height: auto;
+      }
+      &__heroHeadingPrimaryText {
+            width: clamp(19rem, 50vw, 23rem);
       }
 }
