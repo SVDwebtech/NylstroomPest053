@@ -23,7 +23,7 @@
           background-color: $cp-dark-blue;
       }
       &--secondary {
-          background-color: rgba($cp-neonBlue, 1);
-          border: 1px solid $cp-grey;
+          background-color: transparent;
+          border: 2px solid $cp-dark-blue;
       }  
   }
