@@ -37,12 +37,12 @@ body {
 	color: $cf-richBlack;
 	font-family: "Days One", sans-serif;  
 	font-size: clamp(2.2rem, 6.5vw, 2.4rem);
-	font-weight: 900;
+	font-weight: 400;
 	line-height: 1.2;
 	letter-spacing: 3px;
 }
 .headingH3 {
-	color: $cf-richBlack;
+	color: $cf-dark-blue;
 	font-family: "Lato", sans-serif; 
 	font-size: clamp(1.8rem, 6vw, 2rem);
 	font-weight: 900;
@@ -71,6 +71,15 @@ body {
 		font-size: clamp(1.5rem, 5vw, 1.7rem);
 		text-align: center;
 		line-height: 1.1;
+	}
+	&--footerFigure {
+		font-family: "Montserrat", sans-serif; 
+		font-size: clamp(1.8rem, 5vw, 2.4rem);
+		font-weight: 900;
+		text-transform: uppercase;
+		text-align: center;
+		letter-spacing: 2px;
+		line-height: 1.2;
 	}
 }
 
@@ -114,7 +123,8 @@ body {
 		text-underline-offset: 2px;
 	}
 	&--footerDeveloper {
-		color: $cf-silver;
+		color: $cf-dark-blue;
+		font-weight: 500;
 		font-size: clamp(1.2rem, 4.3vw, 1.4rem);
 	}
 }
@@ -134,11 +144,28 @@ body {
 }
 .navlink {
 	&--footerNavlink {
-		color: $cf-emerald;
+		color: $cf-dark-blue;
+		font-weight: 700;
+		text-decoration: underline;
+		text-underline-offset: 3px;
+	}
+	&--footerNavlinkDev {
+		color: $cf-silver;
+		font-weight: 700;
 		text-decoration: underline;
 		text-underline-offset: 3px;
 	}
 }
 .contact {
 	font-style: normal;
+}
+
+.footer {
+	color: $cf-dark-blue;
+	&__footerAddressContainer {
+		color: $cf-dark-blue;
+		font-style: normal;
+		line-height: 1.2;
+
+	}
 }

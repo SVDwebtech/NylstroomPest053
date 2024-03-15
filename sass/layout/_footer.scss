@@ -1,7 +1,18 @@
 .footer {
       @include displayFlexColumn;
       gap: 2rem;
-      background-color: $cp-richBlack;
+      background-color: $cp-shamrockGreen;
+      padding: 5rem 1rem 1rem;
+      &__figure {
+            @include displayFlexColumn;
+      }
+      &__logoImg {
+            display: flex;
+            order: 2px solid $cp-erin;
+            border-radius: $br-cirle;
+            width: 20rem;
+            height: auto;
+      }
       &__footerNavigationContainer {
             @include displayFlexColumn;
             gap: 2rem;
@@ -9,6 +20,9 @@
       &__footerSocialMediaContainer, &__footerWebsiteNavigationContainer, &__footerAddressContainer, &__footerLegalNoticeContainer {
             @include displayFlexColumn;
             gap: 1rem;
+      }
+      &__footerAddressContainer {
+            gap: .25rem;
       }
       &__footerSocialMediaList {
             @include displayFlexRow;
