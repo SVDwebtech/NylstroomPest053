@@ -783,7 +783,8 @@ body {
 .about__figureImg {
   display: block;
   border: 2px solid #001d49;
-  background: linear-gradient(140deg, #00ff33 10%, #07964c, #001d49 85%);
+  background: linear-gradient(140deg, rgba(0, 29, 73, 0.45), rgba(0, 29, 73, 0.65), rgba(0, 29, 73, 0.85));
+  box-shadow: 0 0 12px 2px rgba(0, 28, 41, 0.35);
   width: 25rem;
   height: auto;
 }

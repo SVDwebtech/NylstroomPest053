@@ -30,7 +30,8 @@ main {
       &__figureImg {
             display: block;
             border: 2px solid $cp-dark-blue;
-            background: linear-gradient(140deg, rgba($cp-erin, 1) 10%, rgba($cp-shamrockGreen, 1), rgba($cp-dark-blue, 1) 85%);
+            background: linear-gradient(140deg, rgba($cp-dark-blue, .45), rgba($cp-dark-blue, .65), rgba($cp-dark-blue, .85));
+            box-shadow: 0 0 12px 2px rgba($cp-richBlack, .35);
             width: 25rem;
             height: auto;  
       }
