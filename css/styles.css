@@ -723,6 +723,8 @@ body {
   display: block;
   width: clamp(18rem, 22vw, 24rem);
   height: auto;
+  border-radius: 10000px;
+  box-shadow: -5px 5px 12px 2px rgba(0, 28, 41, 0.35);
 }
 .heroHeadingPrimary__heroHeadingPrimaryText {
   width: clamp(19rem, 50vw, 23rem);

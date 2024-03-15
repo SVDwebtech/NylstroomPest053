@@ -37,6 +37,7 @@
             display: block;
             width: 8rem;
             height: auto;
+            // box-shadow: -3px 3px 12px 3px rgba($cp-richBlack, .75);
       }
 }
 .heroHeadingPrimary {
@@ -46,6 +47,8 @@
             display: block;
             width: clamp(18rem, 22vw, 24rem);
             height: auto;
+            border-radius: $br-cirle;
+            box-shadow: -5px 5px 12px 2px rgba($cp-richBlack, .35);
       }
       &__heroHeadingPrimaryText {
             width: clamp(19rem, 50vw, 23rem);
