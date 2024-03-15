@@ -19,6 +19,25 @@ main {
             margin-top: .5rem;
       }
 }
+.about {
+      @include displayFlexColumn;
+      width: min(100%, 45rem);
+      padding: 0 1rem;
+      margin: 0 auto 5rem; 
+      &__figure {
+            @include displayFlexColumn;
+      }
+      &__figureImg {
+            display: block;
+            border: 2px solid $cp-dark-blue;
+            background: linear-gradient(140deg, rgba($cp-erin, 1) 10%, rgba($cp-shamrockGreen, 1), rgba($cp-dark-blue, 1) 85%);
+            width: 25rem;
+            height: auto;  
+      }
+      .paragraph--aboutOwner {
+            margin-top: .75rem;
+      }
+}
 .services {
       @include displayFlexColumn;
       width: min(100%, 45rem);

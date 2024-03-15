@@ -112,7 +112,7 @@ body {
   color: #001c29ff;
   font-family: "Days One", sans-serif;
   font-size: clamp(2.2rem, 6.5vw, 2.4rem);
-  font-weight: 400;
+  font-weight: 900;
   line-height: 1.2;
   letter-spacing: 3px;
 }
@@ -128,6 +128,12 @@ body {
 .headingH3--heroCredentials {
   color: #016732;
   letter-spacing: 1px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.headingH3--aboutOwner {
+  color: #001d49;
+  letter-spacing: 2px;
   text-decoration: underline;
   text-underline-offset: 3px;
 }
@@ -151,6 +157,11 @@ body {
   font-weight: 900;
   line-height: 1.2;
   letter-spacing: 3px;
+}
+.headingH4--aboutOwner {
+  font-size: clamp(1.4rem, 6vw, 1.6rem);
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 .headingH4--serviceAreasHeading {
   color: #0062ffff;
@@ -185,7 +196,7 @@ body {
 }
 
 .btn--primary {
-  color: #cececeff;
+  color: #00ff33ff;
   font-family: "Lato", sans-serif;
   font-size: clamp(1.6rem, 5vw, 1.8rem);
   font-weight: 700;
@@ -237,7 +248,7 @@ body {
   transform: translateY(-1px);
 }
 .btn--primary {
-  background-color: #016732;
+  background-color: #001d49;
 }
 .btn--secondary {
   background-color: #0062ff;
@@ -348,6 +359,10 @@ body {
   gap: 0.25rem;
 }
 
+.header {
+  margin-bottom: 5rem;
+}
+
 .hero {
   display: flex;
   flex-direction: column;
@@ -456,6 +471,34 @@ body {
   width: 3.25rem;
   height: 3.25rem;
   margin-top: 0.5rem;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: min(100%, 45rem);
+  padding: 0 1rem;
+  margin: 0 auto 5rem;
+}
+.about__figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.about__figureImg {
+  display: block;
+  border: 2px solid #001d49;
+  background: linear-gradient(140deg, #00ff33 10%, #07964c, #001d49 85%);
+  width: 25rem;
+  height: auto;
+}
+.about .paragraph--aboutOwner {
+  margin-top: 0.75rem;
 }
 
 .services {
