@@ -73,8 +73,8 @@ main {
             @include displayFlexColumn;
             align-items: flex-start;
             gap: .5rem;
-            background-color: $cp-lightGrey;
-            border: 2px solid $cp-neonBlue;
+            background: linear-gradient(135deg, rgba($cp-silver, 1), rgba($cp-grey, .5), rgba($cp-grey, .95));
+            border: 2px solid $cp-shamrockGreen;
             border-radius: none;
             box-shadow: $bs-dark;
             width: 100%;
