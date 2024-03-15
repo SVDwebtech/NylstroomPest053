@@ -34,10 +34,13 @@ body {
 	}
 }
 .headingH2 {
-	color: $cf-richBlack;
+	color: $cf-dark-blue;
 	font-family: "Days One", sans-serif;  
-	font-size: clamp(2.2rem, 6.5vw, 2.4rem);
-	font-weight: 400;
+	font-size: clamp(2rem, 6.5vw, 2.4rem);
+	font-weight: 900;
+	text-shadow: 1px 1px 1px rgba($cf-honoluluBlue, 1);
+	text-transform: uppercase;
+
 	line-height: 1.2;
 	letter-spacing: 3px;
 }
