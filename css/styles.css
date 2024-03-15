@@ -153,9 +153,9 @@ body {
 }
 
 .headingH3 {
-  color: #001d49;
+  color: #016732;
   font-family: "Lato", sans-serif;
-  font-size: clamp(1.8rem, 6vw, 2rem);
+  font-size: clamp(1.8rem, 5.5vw, 2rem);
   font-weight: 900;
   line-height: 1.2;
   letter-spacing: 3px;

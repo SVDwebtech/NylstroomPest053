@@ -40,14 +40,13 @@ body {
 	font-weight: 900;
 	text-shadow: 1px 1px 1px rgba($cf-honoluluBlue, 1);
 	text-transform: uppercase;
-
 	line-height: 1.2;
 	letter-spacing: 3px;
 }
 .headingH3 {
-	color: $cf-dark-blue;
+	color: $cf-dark-shamrockGreen;
 	font-family: "Lato", sans-serif; 
-	font-size: clamp(1.8rem, 6vw, 2rem);
+	font-size: clamp(1.8rem, 5.5vw, 2rem);
 	font-weight: 900;
 	line-height: 1.2;
 	letter-spacing: 3px;
