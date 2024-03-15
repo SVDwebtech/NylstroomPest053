@@ -1,0 +1,13 @@
+// style logo
+.logo {
+      @include displayFlexRow;
+      gap: .5rem;
+      &__img {        
+          display: block;
+          width: 5rem;
+          height: auto;
+      }
+      &__text {
+          
+      }
+  }
