@@ -123,12 +123,13 @@ body {
 }
 
 .heroHeading {
-  color: #001c29ff;
+  color: #001d49;
   font-family: "Montserrat", sans-serif;
-  font-size: clamp(1.8rem, 5vw, 2.4rem);
+  font-size: clamp(2rem, 5vw, 2.8rem);
   font-weight: 900;
-  text-transform: uppercase;
   text-align: center;
+  text-shadow: 1px 1px 1px #07964c;
+  text-transform: uppercase;
   letter-spacing: 1px;
   line-height: 1.2;
 }
@@ -137,6 +138,7 @@ body {
   font-size: clamp(1.4rem, 4.5vw, 1.6rem);
   font-weight: 700;
   text-align: center;
+  text-shadow: none;
   text-transform: none;
   line-height: 1.2;
 }
