@@ -237,9 +237,12 @@ body {
   text-decoration: underline;
   text-underline-offset: 2px;
 }
+.paragraph--address {
+  font-weight: 700;
+}
 .paragraph--footerDeveloper {
   color: #001d49;
-  font-weight: 500;
+  font-weight: 700;
   font-size: clamp(1.2rem, 4.3vw, 1.4rem);
 }
 
@@ -269,7 +272,7 @@ body {
   text-underline-offset: 3px;
 }
 .navlink--footerNavlinkDev {
-  color: #cececeff;
+  color: #0062ffff;
   font-weight: 700;
   text-decoration: underline;
   text-underline-offset: 3px;
@@ -586,7 +589,8 @@ body {
   align-items: center;
   gap: 2rem;
   gap: 2rem;
-  background-color: #07964c;
+  background: linear-gradient(180deg, #898989, rgba(185, 185, 185, 0.5), rgba(185, 185, 185, 0.6));
+  border-top: 2px solid #001d49;
   padding: 5rem 1rem 1rem;
 }
 .footer__figure {

@@ -1,7 +1,8 @@
 .footer {
       @include displayFlexColumn;
       gap: 2rem;
-      background-color: $cp-shamrockGreen;
+      background: linear-gradient(180deg, rgba($cp-grey, 1), rgba($cp-lightGrey, .5), rgba($cp-lightGrey, .6));
+      border-top: 2px solid $cp-dark-blue;
       padding: 5rem 1rem 1rem;
       &__figure {
             @include displayFlexColumn;
