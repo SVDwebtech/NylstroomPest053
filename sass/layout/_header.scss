@@ -7,8 +7,34 @@
       min-height: 95vh;
       padding: 1rem;
       margin: 0 auto;
+      &__heroCtaContainer {
+            @include displayFlexColumn;
+      }
       &__heroHeading {
             @include displayFlexColumn;
+      }
+      &__heroCredentialsContainer {
+            @include displayFlexColumn;
+            border: 2px solid $cp-shamrockGreen;
+            box-shadow: 0 0 12px 2px rgba($cp-richBlack, .25);
+            padding: 2rem;
+      }
+      &__figureContainer {
+            @include displayFlexRow;
+      }
+      &__figure {
+            @include displayFlexColumn;
+            gap: .25rem;
+            box-shadow: 2px 2px 3px 1px rgba($cp-richBlack, .25);
+            padding: .5rem;
+      }
+      &__figcaption {
+            display: none;
+      }
+      &__heroFigureImg {
+            display: block;
+            width: 8rem;
+            height: auto;
       }
 }
 .heroHeadingPrimary {

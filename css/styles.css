@@ -125,6 +125,12 @@ body {
   line-height: 1.2;
   letter-spacing: 3px;
 }
+.headingH3--heroCredentials {
+  color: #016732;
+  letter-spacing: 1px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
 .headingH3--servicesListItemHeading {
   color: #0062ffff;
   font-size: clamp(1.5rem, 5vw, 1.7rem);
@@ -353,12 +359,54 @@ body {
   padding: 1rem;
   margin: 0 auto;
 }
+.hero__heroCtaContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
 .hero__heroHeading {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 2rem;
+}
+.hero__heroCredentialsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  border: 2px solid #07964c;
+  box-shadow: 0 0 12px 2px rgba(0, 28, 41, 0.25);
+  padding: 2rem;
+}
+.hero__figureContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.hero__figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  gap: 0.25rem;
+  box-shadow: 2px 2px 3px 1px rgba(0, 28, 41, 0.25);
+  padding: 0.5rem;
+}
+.hero__figcaption {
+  display: none;
+}
+.hero__heroFigureImg {
+  display: block;
+  width: 8rem;
+  height: auto;
 }
 
 .heroHeadingPrimary {

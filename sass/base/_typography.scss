@@ -48,6 +48,12 @@ body {
 	font-weight: 900;
 	line-height: 1.2;
 	letter-spacing: 3px;
+	&--heroCredentials {
+		color: $cf-dark-shamrockGreen;
+		letter-spacing: 1px;
+		text-decoration: underline;
+		text-underline-offset: 3px;
+	}
 	&--servicesListItemHeading {
 		color: $cf-neonBlue;
 		font-size: clamp(1.5rem, 5vw, 1.7rem);
