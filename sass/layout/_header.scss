@@ -12,6 +12,7 @@
       }
       &__heroHeading {
             @include displayFlexColumn;
+            gap: .75rem;
       }
       &__heroCredentialsContainer {
             @include displayFlexColumn;
@@ -38,11 +39,11 @@
       }
 }
 .heroHeadingPrimary {
-      @include displayFlexRow;
+      @include displayFlexColumn;
       gap: 1rem;
       &__heroHeadingPrimaryLogoImg {
             display: block;
-            width: clamp(4.5rem, 22vw, 6rem);
+            width: clamp(18rem, 22vw, 24rem);
             height: auto;
       }
       &__heroHeadingPrimaryText {
