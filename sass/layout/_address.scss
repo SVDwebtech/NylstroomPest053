@@ -25,6 +25,7 @@
       }
       &__contactGoogleMapsIframeContainer {
             border: 2px solid $cp-shamrockGreen;
+            box-shadow: 0 0 12px 1px rgba($cp-richBlack, .35);
             width: min(100%, 45rem);
             padding: .25rem;
             margin-top: .75rem;
@@ -32,6 +33,6 @@
       &__contactGoogleMapsIframe {
             display: block;
             width: 100%;
-            height: auto;
+            height: min(60vw, 40rem);
       }
 }

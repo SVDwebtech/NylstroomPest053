@@ -587,6 +587,7 @@ body {
 }
 .contact__contactGoogleMapsIframeContainer {
   border: 2px solid #07964c;
+  box-shadow: 0 0 12px 1px rgba(0, 28, 41, 0.35);
   width: min(100%, 45rem);
   padding: 0.25rem;
   margin-top: 0.75rem;
@@ -594,7 +595,7 @@ body {
 .contact__contactGoogleMapsIframe {
   display: block;
   width: 100%;
-  height: auto;
+  height: min(60vw, 40rem);
 }
 
 .footer {
