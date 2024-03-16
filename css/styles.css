@@ -357,6 +357,9 @@ body {
   top: -130px;
   left: 0;
 }
+.divLink--googleMapsLink {
+  top: -100px;
+}
 
 .logo {
   display: flex;
@@ -576,6 +579,9 @@ body {
   gap: 0.5rem;
   width: 100%;
 }
+.contact__contactArticle--googleMaps {
+  position: relative;
+}
 .contact__contactDetailItem {
   display: flex;
   flex-direction: row;
@@ -603,6 +609,10 @@ body {
   display: block;
   width: 100%;
   height: min(60vw, 40rem);
+}
+
+.socialMedia {
+  position: relative;
 }
 
 .footer {
@@ -828,6 +838,7 @@ body {
   width: min(100%, 45rem);
   padding: 0 1rem;
   margin: 0 auto 5rem;
+  position: relative;
 }
 .about__figure {
   display: flex;
@@ -857,6 +868,7 @@ body {
   width: min(100%, 45rem);
   padding: 0 1rem;
   margin: 0 auto 5rem;
+  position: relative;
 }
 .services__sectionContentWrapper {
   display: flex;
@@ -935,6 +947,7 @@ body {
   width: min(100%, 45rem);
   padding: 0 1rem;
   margin: 0 auto 5rem;
+  position: relative;
 }
 .process__sectionContentWrapper {
   display: flex;

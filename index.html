@@ -17,20 +17,20 @@
     </head>
 
     <body>
-
+        <div id="homeLink" class="divLink divLink--homeLink"></div>
         <header class="header">
             <nav class="header__navbarSection navbarSection">
 
                 <div class="navbarSection__logoAndNumbers logoAndNumbers">
-
-                    <figure class="logoAndNumbers__logo logo">
-                        <img class="logo__img" src="./img/Images/WebsiteImages/NylstroomPestLogo500by500.webp"
-                            alt="image of a small tree with green leaves which represents an orange tree in respect of the logo image of Orange Tree Car Wash and Valet">
-                        <figcaption>
-                            <p class="logo__text">Nylstroom <br class="logo__breakLine">Pest Control</p>
-                        </figcaption>
-                    </figure>
-
+                    <a class="navList__navLink navLink navLink--hamburgerMenuNavlink" href="#homeLink">
+                        <figure class="logoAndNumbers__logo logo">
+                            <img class="logo__img" src="./img/Images/WebsiteImages/NylstroomPestLogo500by500.webp"
+                                alt="image of a small tree with green leaves which represents an orange tree in respect of the logo image of Orange Tree Car Wash and Valet">
+                            <figcaption>
+                                <p class="logo__text">Nylstroom <br class="logo__breakLine">Pest Control</p>
+                            </figcaption>
+                        </figure>
+                    </a>
                 </div>
 
                 <button class="navbar__hamburgerBtn hamburgerBtn">
@@ -42,22 +42,22 @@
                 <ul class="navbar__navList navList navList--displayNone">
                     <div class="navFrame"></div>
                     <li class="navList__navItem navItem navItem1">
-                        <a class="navList__navLink navLink navLink--hamburgerMenuNavlink" href="#home">Home</a>
+                        <a class="navList__navLink navLink navLink--hamburgerMenuNavlink" href="#homeLink">Home</a>
                     </li>
                     <li class="navList__navItem navItem navItem2">
-                        <a class="navList__navLink navLink navLink--hamburgerMenuNavlink" href="#about">About</a>
+                        <a class="navList__navLink navLink navLink--hamburgerMenuNavlink" href="#aboutLink">About</a>
                     </li>
                     <li class="navList__navItem navItem navItem3">
-                        <a class="navList__navLink navLink navLink--hamburgerMenuNavlink" href="#service">Services</a>
+                        <a class="navList__navLink navLink navLink--hamburgerMenuNavlink" href="#serviceLink">Services</a>
                     </li>
                     <li class="navList__navItem navItem navItem4">
-                        <a class="navList__navLink navLink navLink--hamburgerMenuNavlink" href="#google">Process</a>
+                        <a class="navList__navLink navLink navLink--hamburgerMenuNavlink" href="#processLink">Process</a>
                     </li>
                     <li class="navList__navItem navItem navItem5">
-                        <a class="navList__navLink navLink navLink--hamburgerMenuNavlink" href="#">Social Media</a>
+                        <a class="navList__navLink navLink navLink--hamburgerMenuNavlink" href="#socialLink">Social Media</a>
                     </li>
                     <li class="navList__navItem navItem navItem6">
-                        <a class="navList__navLink navLink navLink--hamburgerMenuNavlink" href="#trading">Contact</a>
+                        <a class="navList__navLink navLink navLink--hamburgerMenuNavlink" href="#contactLink">Contact</a>
                     </li>
                     <li class="navList__navItem navItem navItem7">
                         <a class="navList__navLink navLink navLink--hamburgerMenuNavlink" href="#googleMapsLink">Google Maps</a>
@@ -100,6 +100,7 @@
 
         <main class="main">
             <section class="main__about about">
+                <div id="aboutLink" class="divLink divLink--aboutLink"></div>
                 <h2 class="about__headingH2 headingH2 headingH2--about">About</h2>
                 <p class="about__paragraph paragraph paragraph--about">Nylstroom Pest Control, 
                     based in Modimolle, is your trusted ally in eliminating pests and 
@@ -129,6 +130,7 @@
                 
             </section>
             <section class="main__services services">
+                <div id="serviceLink" class="divLink divLink--serviceLink"></div>
                 <h2 class="services__headingH2 headingH2 headingH2--services">Our Services</h2>
                 <p class="services__paragraph paragraph paragraph--services">Discover comprehensive 
                     pest management at Nylstroom Pest Control. Our services range from specialized 
@@ -199,6 +201,7 @@
                 </div>
             </section>
             <section class="main__process process">
+                <div id="processLink" class="divLink divLink--processLink"></div>
                 <h2 class="process__headingH2 headingH2 headingH2--process">Process &rarr; <br/>How it works</h2>
                 <p class="process__paragraph paragraph paragraph--process">We follow
                     best practices from the inspection, and treatment, to the follow-up process. 
@@ -232,6 +235,7 @@
         
         <aside class="sidebar">
             <section class="sidebar__socialMedia socialMedia">
+                <div id="socialLink" class="divLink divLink--socialLink"></div>
                 <h2 class="socialMedia__headingH2 headingH2 headingH2--socialMedia">Social Media</h2>
                 <p class="socialMedia__paragraph paragraph paragraph--socialMedia">Connect with Nylstroom 
                     Pest Control on social media for the latest updates, tips, and pest control solutions! 
@@ -264,7 +268,7 @@
             </section>
         </aside>
         <address class="address__contact contact">
-            <div id="contactLink" class="divLink divLink__contactLink"></div>
+            <div id="contactLink" class="divLink divLink--contactLink"></div>
             <h2 class="contact__headingH2 headingH2 headingH2--contact">Contact Us</h2>
             <p class="contact__paragraph paragraph paragraph--contact">Have a pest 
                 problem in Modimolle? Reach out to Nylstroom Pest Control for swift 
@@ -311,7 +315,8 @@
                         <p class="contact__paragraph paragraph paragraph--contactArticle">86 Plein Street, Modimolle, 0510</p>
                     </a>
                 </article>
-                <article class="contact__contactArticle">
+                <article class="contact__contactArticle contact__contactArticle--googleMaps">
+                    <div id="googleMapsLink" class="divLink divLink--googleMapsLink"></div>
                     <h3 class="contact__headingH3 headingH3 headingH3--addressContact">Google Maps</h3>
                     <div class="contact__contactGoogleMapsIframeContainer">
                         <iframe class="contact__contactGoogleMapsIframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3624.9177208874557!2d28.413278000000002!3d-24.695355000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ebf69747dc36583%3A0x344c02a12263aa9c!2s86%20Plein%20St%2C%20Modimolle%2C%200510!5e0!3m2!1sen!2sza!4v1709907809573!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -320,12 +325,14 @@
             </div>    
         </address>        
         <footer class="footer">
-            <figure class="footer__figure">
-                <img class="footer__logoImg" src="./img/Images/WebsiteImages/NylstroomPestLogo500by500.webp" alt="">
-                <figcaption class="footer__figcaption">
-                    <h3 class="footer__headingH3 headingH3 headingH3--footerFigure">Nylstroom <br class="footer__figureLineBreak">Pest Control</h3>
-                </figcaption>
-            </figure>
+            <a class="navList__navLink navLink navLink--hamburgerMenuNavlink" href="#homeLink">
+                <figure class="footer__figure">
+                    <img class="footer__logoImg" src="./img/Images/WebsiteImages/NylstroomPestLogo500by500.webp" alt="">
+                    <figcaption class="footer__figcaption">
+                        <h3 class="footer__headingH3 headingH3 headingH3--footerFigure">Nylstroom <br class="footer__figureLineBreak">Pest Control</h3>
+                    </figcaption>
+                </figure>
+            </a>
             <nav class="footer__footerNavigationContainer">
                     <article class="footer__footerSocialMediaContainer">
                         <h3 class="footer__footerHeadingH3 headingH3 headingH3--socialMedia">Social Media</h3>
