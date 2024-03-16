@@ -130,6 +130,16 @@ body {
 	&--address {
 		font-weight: 700;
 	}
+	&--footerAddress {
+		font-size: clamp(1.6rem, 5.2vw, 2rem);
+		font-weight: 700;
+		line-height: 1.1;
+	}
+	&--footerAddressDetail {
+		color: $cf-dark-blue;
+		text-decoration: underline;
+		text-underline-offset: 3px;
+	}
 	&--footerCopyright {
 		font-size: clamp(1.2rem, 5vw, 2rem);
 	}

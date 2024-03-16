@@ -23,7 +23,23 @@
             gap: 1rem;
       }
       &__footerAddressContainer {
-            gap: .25rem;
+            gap: 1.75rem;
+      }
+      &__footerContactDetailItem {
+            @include displayFlexColumn;
+            gap: 0rem;
+      }
+      &__footerContactDetailLink {
+            @include displayFlexRow;
+            gap: .5rem;
+      }
+      #footerMobileContactLink {
+            margin-right: 2rem;
+      }
+      &__footerContactDetailIcon {
+            display: block;
+            width: 3.2rem;
+            height: 2.3rem;
       }
       &__footerSocialMediaList {
             @include displayFlexRow;

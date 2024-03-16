@@ -240,6 +240,16 @@ body {
 .paragraph--address {
   font-weight: 700;
 }
+.paragraph--footerAddress {
+  font-size: clamp(1.6rem, 5.2vw, 2rem);
+  font-weight: 700;
+  line-height: 1.1;
+}
+.paragraph--footerAddressDetail {
+  color: #001d49;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
 .paragraph--footerCopyright {
   font-size: clamp(1.2rem, 5vw, 2rem);
 }
@@ -628,7 +638,31 @@ body {
   gap: 1rem;
 }
 .footer__footerAddressContainer {
-  gap: 0.25rem;
+  gap: 1.75rem;
+}
+.footer__footerContactDetailItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  gap: 0rem;
+}
+.footer__footerContactDetailLink {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  gap: 0.5rem;
+}
+.footer #footerMobileContactLink {
+  margin-right: 2rem;
+}
+.footer__footerContactDetailIcon {
+  display: block;
+  width: 3.2rem;
+  height: 2.3rem;
 }
 .footer__footerSocialMediaList {
   display: flex;
