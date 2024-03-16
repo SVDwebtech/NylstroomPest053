@@ -35,6 +35,7 @@
       }
       &__footerDeveloperParagraph {
             @include displayFlexColumn;
-            gap: .25rem;
+            gap: 0rem;
+            margin-top: 1rem;
       }
 }
