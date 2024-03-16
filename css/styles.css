@@ -352,6 +352,12 @@ body {
   border: 2px solid #001d49;
 }
 
+.divLink {
+  position: absolute;
+  top: -130px;
+  left: 0;
+}
+
 .logo {
   display: flex;
   flex-direction: row;
@@ -552,6 +558,7 @@ body {
   width: min(100%, 45rem);
   padding: 0 1rem;
   margin: 0 auto 5rem;
+  position: relative;
 }
 .contact__sectionContentWrapper {
   display: flex;

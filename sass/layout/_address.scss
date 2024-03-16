@@ -3,6 +3,7 @@
       width: min(100%, 45rem);
       padding: 0 1rem;
       margin: 0 auto 5rem;
+      position: relative;
       &__sectionContentWrapper {
             @include displayFlexColumn;
       }
