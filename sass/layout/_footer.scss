@@ -1,7 +1,7 @@
 .footer {
       @include displayFlexColumn;
       gap: 2rem;
-      background: linear-gradient(180deg, rgba($cp-grey, 1), rgba($cp-lightGrey, .5), rgba($cp-lightGrey, .6));
+      background: linear-gradient(135deg, rgba($cp-dark-blue, .65), rgba($cp-darkGrey, .5), rgba($cp-grey, .3), rgba($cp-lightGrey, 1), rgba($cp-darkGrey, .5), rgba($cp-dark-blue, .64));
       border-top: 2px solid $cp-dark-blue;
       padding: 5rem 1rem 1rem;
       &__figure {
@@ -11,6 +11,7 @@
             display: flex;
             order: 2px solid $cp-erin;
             border-radius: $br-cirle;
+            box-shadow: -3px 3px 25px 1px rgba($cp-richBlack, 1);
             width: 20rem;
             height: auto;
       }
