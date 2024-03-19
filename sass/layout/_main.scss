@@ -1,32 +1,29 @@
 main {
 }
-
-.socialMedia {
-      @include displayFlexColumn;
-      width: min(100%, 45rem);
-      padding: 0 1rem;
-      margin: 0 auto 5rem;
-      &__sectionContentWrapper {
-            @include displayFlexColumn;
-      }
-      &__socialMediaArticle {
-            @include displayFlexColumn;
-            gap: .5rem;
-      }
-      &__socialMediaDetailIcon {
-            width: $contactDetailIconSizeWidth;
-            height: $contactDetailIconSizeHeight;
-            margin-top: .5rem;
-      }
-}
 .about {
       @include displayFlexColumn;
       width: min(100%, 45rem);
       padding: 0 1rem;
       margin: 0 auto 5rem; 
       position: relative;
+      @include respond(tab-port) {
+            width: min(100%, 55rem);
+      }
+      @include respond(tab-land) {
+            align-items: flex-start;
+            width: min(100%, 75rem);
+            padding: 0 5rem;
+      }
+      @include respond(desk) {
+            width: min(100%, 100rem);
+      }
       &__figure {
             @include displayFlexColumn;
+            @include respond(tab-land) {
+                  @include displayFlexRow;
+                  align-items: flex-start;
+                  gap: 3rem;
+            }
       }
       &__figureImg {
             display: block;
@@ -43,15 +40,34 @@ main {
 .services {
       @include displayFlexColumn;
       width: min(100%, 45rem);
+      @include respond(tab-port) {
+            width: min(100%, 55rem);
+      }
+      @include respond(tab-land) {
+            align-items: flex-start;
+            width: min(100%, 75rem);
+            padding: 0 5rem;
+      }
+      @include respond(desk) {
+            width: min(100%, 100rem);
+      }
       padding: 0 1rem;
       margin: 0 auto 5rem;
       position: relative;
       &__sectionContentWrapper {
             @include displayFlexColumn;
             gap: 2rem;
+            @include respond(tab-land) {
+                  align-items: flex-start;
+            }
       }
       &__servicesList {
             @include displayFlexColumn;
+            @include respond(tab-land) {
+                  @include displayFlexRow;
+                  align-items: stretch;
+                  flex-wrap: wrap;
+            }
       }
       &__servicesListItem {
             @include displayFlexColumn;
@@ -62,6 +78,35 @@ main {
             border-radius: none;
             box-shadow: $bs-dark;
             padding: 2rem;
+            @include respond(tab-land) {
+                  justify-content: flex-start;
+                  align-items: flex-start;
+                  row-gap: 2rem;
+                  flex: 1 0 350px;
+                  min-height: 270px;
+                  
+            }
+            @include respond(desk) {
+                  flex: 1 0 450px;
+                  min-height: 260px;
+            }
+      }
+      &__articleContentWrapper {
+            @include displayFlexColumn;
+            @include respond(tab-land) {
+                  @include displayFlexRow;
+                  align-items: flex-start;
+                  gap: 5rem;
+            }
+      }
+      &__servicesImageAndIntroContainer {
+            @include displayFlexColumn;
+            @include respond(tab-land) {
+                  flex: 1 0 55%;
+            }
+      }
+      &__servicesCtaContainer {
+            @include displayFlexColumn;
       }
       &__servicesArticle {
             @include displayFlexColumn;
@@ -70,6 +115,9 @@ main {
       &__servicesArticle--serviceArea {
             @include displayFlexColumn;
             gap: 2rem;
+            @include respond(tab-land) {
+                  align-items: flex-start;
+            }
       }
       &__servicesArticleAreasListContainer {
             @include displayFlexColumn;
@@ -90,20 +138,45 @@ main {
             padding: .25rem;
 
       }
-      
+      &__servicesDetailItem {
+            margin-top: 2rem;
+            @include respond(tab-land) {
+                  @include displayFlexColumn;
+                  align-items: flex-start;
+            }
+      }
 }
 .process {
       @include displayFlexColumn;
       width: min(100%, 45rem);
+      @include respond(tab-port) {
+            width: min(100%, 55rem);
+      }
+      @include respond(tab-land) {
+            align-items: flex-start;
+            width: min(100%, 75rem);
+            padding: 0 5rem;
+      }
+      @include respond(desk) {
+            width: min(100%, 100rem);
+      }
       padding: 0 1rem;
       margin: 0 auto 5rem;
       position: relative;
       &__sectionContentWrapper {
             @include displayFlexColumn;
             gap: 2rem;
+            @include respond(tab-land) {
+                  // align-items: flex-start;
+            }
       }
       &__processList {
             @include displayFlexColumn;
+            @include respond(tab-land) {
+                  @include displayFlexRow;
+                  align-items: stretch;
+                  flex-wrap: wrap;
+            }
       }
       &__processListItem {
             @include displayFlexColumn;
@@ -113,6 +186,10 @@ main {
             box-shadow: $bs-dark;
             width: 100%;
             padding: 2rem;
+            @include respond(tab-land) {
+                  align-items: flex-start;
+                  flex: 1 0 350px;
+            }
       }
       &__servicesArticle {
             @include displayFlexColumn;
@@ -139,7 +216,5 @@ main {
             width: 100%;
             height: auto;
             padding: .25rem;
-
-      }
-      
+      }    
 }

@@ -1,7 +1,45 @@
 .sidebar {
-
+      @include respond(tab-land) {
+            
+      }
 }
 
 .socialMedia {
-      position: relative;
+      @include displayFlexColumn;
+      width: min(100%, 45rem);
+      @include respond(tab-port) {
+            width: min(100%, 55rem);
+      }
+      @include respond(tab-land) {
+            width: min(100%, 75rem);
+            align-items: flex-start;
+            padding: 1rem 5rem;
+      }
+      @include respond(desk) {
+            width: min(100%, 100rem);
+      }
+      padding: 0 1rem;
+      margin: 0 auto 5rem;
+      &__sectionContentWrapper {
+            @include displayFlexColumn;
+            @include respond(tab-land) {
+                  @include displayFlexRow;
+                  align-items: flex-start;
+                  flex-wrap: wrap;
+                  gap: 5rem;
+            }
+      }
+      &__socialMediaArticle {
+            @include displayFlexColumn;
+            gap: .5rem;
+            @include respond(tab-land) {
+                  align-items: flex-start;
+                  flex: 1 0 340px;
+            }
+      }
+      &__socialMediaDetailIcon {
+            width: $contactDetailIconSizeWidth;
+            height: $contactDetailIconSizeHeight;
+            margin-top: .5rem;
+      }
 }

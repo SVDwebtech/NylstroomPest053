@@ -20,7 +20,6 @@
         <div id="homeLink" class="divLink divLink--homeLink"></div>
         <header class="header">
             <nav class="header__navbarSection navbarSection">
-
                 <div class="navbarSection__logoAndNumbers logoAndNumbers">
                     <a class="navList__navLink navLink navLink--hamburgerMenuNavlink" href="#homeLink">
                         <figure class="logoAndNumbers__logo logo">
@@ -32,13 +31,11 @@
                         </figure>
                     </a>
                 </div>
-
                 <button class="navbar__hamburgerBtn hamburgerBtn">
                     <span class="hamburgerBtn__hamburgerBar hamburgerBar hamburgerBtn__hamburgerBar--top"></span>
                     <span class="hamburgerBtn__hamburgerBar hamburgerBar hamburgerBtn__hamburgerBar--middle"></span>
                     <span class="hamburgerBtn__hamburgerBar hamburgerBar hamburgerBtn__hamburgerBar--bottom"></span>
                 </button>
-
                 <ul class="navbar__navList navList navList--displayNone">
                     <div class="navFrame"></div>
                     <li class="navList__navItem navItem navItem1">
@@ -65,17 +62,23 @@
                 </ul>
             </nav>
             <section class="header__hero hero">
-                <div class="hero__heroCtaContainer">
+                <div class="hero__heroLogoAndCtaContainer">
                     <h1 class="hero__heroHeading heroHeading">
                         <span class="heroHeading__heroHeadingPrimary heroHeadingPrimary">
                             <img class="heroHeadingPrimary__heroHeadingPrimaryLogoImg" src="./img/Images/WebsiteImages/NylstroomPestLogo500by500.webp" alt="Logo image of Nylstroom Pest Control in Modimolle." >
                             <span class="heroHeadingPrimary__heroHeadingPrimaryText">Nylstroom <br class="heroHeadingPrimary__lineBreak">Pest Control</span> 
                         </span>
-                        <span class="heroHeading__heroHeadingByline">Serving Nylstroom, Naboomspruit, Vaalwater, Warmbad, Leeupoort and surrounding areas. From specialized IPM programs for food and health industries to commercial and domestic pest control, rodent control, termite management, and efficient fumigation services.</span>
                     </h1>
-                    <a class="hero__heroBtnContainer" href="#contactLink">
-                        <button class="btn btn--primary">Contact Us</button>
-                    </a>
+                    <div class="hero__cta">
+                        <p class="hero__ctaTxt paragraph paragraph--ctaTxt">Serving Nylstroom, Naboomspruit, 
+                            Vaalwater, Warmbad, Leeupoort and surrounding areas. From specialized IPM 
+                            programs for food and health industries to commercial and domestic pest 
+                            control, rodent control, termite management, and efficient fumigation 
+                            services.</p>
+                        <a class="hero__ctaBtnContainer" href="#contactLink">
+                            <button class="btn btn--primary">Contact Us</button>
+                        </a>
+                    </div>
                 </div>
                 <div class="hero__heroCredentialsContainer">
                     <h3 class="hero__headingH3 headingH3 headingH3--heroCredentials">Certified & Accredited:</h3>
@@ -111,23 +114,22 @@
                     Association, delivers effective solutions with expertise and 
                     dedication. Count on us to safeguard your home or business 
                     against unwanted intruders.</p>
-                    <figure class="about__figure">
-                        <img class="about__figureImg about__img--figureImgOwner" src="./img/Images/WebsiteImages/NylstroomPestProfilePhotoJohan.webp" alt="">
-                        <figcaption class="about__figcaption">
-                            <h3 class="about__headingH3 headingH3 headingH3--aboutOwner">Johan de Villiers</h3>
-                            <h4 class="about__headingH4 headingH4 headingH4--aboutOwner">Owner & Manager</h4>
-                            <p class="about__paragraph paragraph paragraph--aboutOwner">Johan de Villiers, 
-                                owner and manager of Nylstroom Pest Control, brings over 25 years of 
-                                invaluable experience in the pest control industry to the table. As a 
-                                resident of Nylstroom, Johan's deep understanding of local 
-                                pest dynamics coupled with his expertise ensures effective solutions 
-                                tailored to the region's specific needs. Passionate about delivering 
-                                top-notch service, Johan leads his team with dedication and a 
-                                commitment to excellence, making Nylstroom Pest Control the go-to 
-                                choice for pest management in Modimolle and beyond.</p>
-                        </figcaption>
-                    </figure>
-                
+                <figure class="about__figure">
+                    <img class="about__figureImg about__img--figureImgOwner" src="./img/Images/WebsiteImages/NylstroomPestProfilePhotoJohan.webp" alt="">
+                    <figcaption class="about__figcaption">
+                        <h3 class="about__headingH3 headingH3 headingH3--aboutOwner">Johan de Villiers</h3>
+                        <h4 class="about__headingH4 headingH4 headingH4--aboutOwner">Owner & Manager</h4>
+                        <p class="about__paragraph paragraph paragraph--aboutOwner">Johan de Villiers, 
+                            owner and manager of Nylstroom Pest Control, brings over 25 years of 
+                            invaluable experience in the pest control industry to the table. As a 
+                            resident of Nylstroom, Johan's deep understanding of local 
+                            pest dynamics coupled with his expertise ensures effective solutions 
+                            tailored to the region's specific needs. Passionate about delivering 
+                            top-notch service, Johan leads his team with dedication and a 
+                            commitment to excellence, making Nylstroom Pest Control the go-to 
+                            choice for pest management in Modimolle and beyond.</p>
+                    </figcaption>
+                </figure>
             </section>
             <section class="main__services services">
                 <div id="serviceLink" class="divLink divLink--serviceLink"></div>
@@ -178,25 +180,31 @@
                     </a>
                     <article class="services__servicesArticle services__servicesArticle--serviceArea">
                         <h3 class="services__serviceArticleHeadingH3 headingH3 headingH3--mobileservices">Serving Your Waterberg Community</h3>
-                        <img class="services__serviceArticleImage" src="./img/Images/WebsiteImages/NylstroomPestWaterbergServiceAreasBigMap.webp" alt="">
-                        <p class="services__serviceArticleIntroParagraph paragraph paragraph--serviceArea">Our dedicated 
-                            team is committed to creating pest-free environments, ensuring the well-being 
-                            of your Waterberg community. Trust us for effective and reliable pest control tailored 
-                            to your local needs. Nylstroom Pest Control proudly extends its services to 
-                            the following Wateberg service areas: </p>
-                        <article class="services__servicesArticleAreasListContainer">
-                            <h4 class="services__headingH4 headingH4 headingH4--serviceAreasHeading">Waterberg Service Areas:</h4>
-                            <ul>
-                                <li><p class="services__paragraph paragraph paragraph--serviceAreaName"><span class="paragraph__serviceAreaName--warmbad">Bela-Bela</span> (Warmbad),</p></li>
-                                <li><p class="services__paragraph paragraph paragraph--serviceAreaName"><span class="paragraph__serviceAreaName--nylstroom">Modimolle</span> (Nylstroom),</p></li>
-                                <li><p class="services__paragraph paragraph paragraph--serviceAreaName"><span class="paragraph__serviceAreaName--nylstroom">Vaalwater</span>,</p></li>
-                                <li><p class="services__paragraph paragraph paragraph--serviceAreaName"><span class="paragraph__serviceAreaName--naboom">Mookgopong</span> (Naboomspruit), and</p></li>
-                                <li><p class="services__paragraph paragraph paragraph--serviceAreaName"><span class="paragraph__serviceAreaName--leeupoort">Leeupoort</span>.</p></li>
-                            </ul>
-                        </article>
-                        <a class="services__servicesDetailItem" href="#contactLink">
-                            <button class="btn btn--secondary">Contact Us</button>
-                        </a>
+                        <div class="services__articleContentWrapper">
+                            <div class="services__servicesImageAndIntroContainer">
+                                <img class="services__serviceArticleImage" src="./img/Images/WebsiteImages/NylstroomPestWaterbergServiceAreasBigMap.webp" alt="">
+                                <p class="services__serviceArticleIntroParagraph paragraph paragraph--serviceArea">Our dedicated 
+                                    team is committed to creating pest-free environments, ensuring the well-being 
+                                    of your Waterberg community. Trust us for effective and reliable pest control tailored 
+                                    to your local needs. Nylstroom Pest Control proudly extends its services to 
+                                    the following Wateberg service areas: </p>
+                            </div>
+                            <div class="services__servicesCtaContainer">
+                                <article class="services__servicesArticleAreasListContainer">
+                                    <h4 class="services__headingH4 headingH4 headingH4--serviceAreasHeading">Waterberg Service Areas:</h4>
+                                    <ul>
+                                        <li><p class="services__paragraph paragraph paragraph--serviceAreaName"><span class="paragraph__serviceAreaName--warmbad">Bela-Bela</span> (Warmbad),</p></li>
+                                        <li><p class="services__paragraph paragraph paragraph--serviceAreaName"><span class="paragraph__serviceAreaName--nylstroom">Modimolle</span> (Nylstroom),</p></li>
+                                        <li><p class="services__paragraph paragraph paragraph--serviceAreaName"><span class="paragraph__serviceAreaName--nylstroom">Vaalwater</span>,</p></li>
+                                        <li><p class="services__paragraph paragraph paragraph--serviceAreaName"><span class="paragraph__serviceAreaName--naboom">Mookgopong</span> (Naboomspruit), and</p></li>
+                                        <li><p class="services__paragraph paragraph paragraph--serviceAreaName"><span class="paragraph__serviceAreaName--leeupoort">Leeupoort</span>.</p></li>
+                                    </ul>
+                                </article>
+                                <a class="services__servicesDetailItem" href="#contactLink">
+                                    <button class="btn btn--secondary">Contact Us</button>
+                                </a>
+                            </div>
+                        </div>
                     </article>
                 </div>
             </section>
@@ -325,86 +333,92 @@
             </div>    
         </address>        
         <footer class="footer">
-            <a class="navList__navLink navLink navLink--hamburgerMenuNavlink" href="#homeLink">
-                <figure class="footer__figure">
-                    <img class="footer__logoImg" src="./img/Images/WebsiteImages/NylstroomPestLogo500by500.webp" alt="">
-                    <figcaption class="footer__figcaption">
-                        <h3 class="footer__headingH3 headingH3 headingH3--footerFigure">Nylstroom <br class="footer__figureLineBreak">Pest Control</h3>
-                    </figcaption>
-                </figure>
-            </a>
-            <nav class="footer__footerNavigationContainer">
-                    <article class="footer__footerSocialMediaContainer">
-                        <h3 class="footer__footerHeadingH3 headingH3 headingH3--socialMedia">Social Media</h3>
-                        <ul class="footer__footerSocialMediaList">
-                            <li class="footer__footerNavitem">
-                                <a href="" class="footer__footerNavlink navlink navlink--footerNavlink">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M21.4286 0H2.57143C1.88944 0 1.23539 0.270918 0.753154 0.753154C0.270918 1.23539 0 1.88944 0 2.57143L0 21.4286C0 22.1106 0.270918 22.7646 0.753154 23.2468C1.23539 23.7291 1.88944 24 2.57143 24H9.92411V15.8405H6.54911V12H9.92411V9.07286C9.92411 5.74339 11.9063 3.90429 14.9421 3.90429C16.3961 3.90429 17.9164 4.16357 17.9164 4.16357V7.43143H16.2413C14.5907 7.43143 14.0759 8.45571 14.0759 9.50625V12H17.7605L17.1712 15.8405H14.0759V24H21.4286C22.1106 24 22.7646 23.7291 23.2468 23.2468C23.7291 22.7646 24 22.1106 24 21.4286V2.57143C24 1.88944 23.7291 1.23539 23.2468 0.753154C22.7646 0.270918 22.1106 0 21.4286 0Z" fill="#001d49"/>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li class="footer__footerNavitem">
-                                <a href="" class="footer__footerNavlink navlink navlink--footerNavlink">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M17.0365 0H6.97548C2.6053 0 0 2.604 0 6.972V17.016C0 21.396 2.6053 24 6.97548 24H17.0245C21.3947 24 24 21.396 24 17.028V6.972C24.012 2.604 21.4067 0 17.0365 0ZM12.006 16.656C9.4367 16.656 7.34766 14.568 7.34766 12C7.34766 9.432 9.4367 7.344 12.006 7.344C14.5753 7.344 16.6643 9.432 16.6643 12C16.6643 14.568 14.5753 16.656 12.006 16.656ZM19.1135 5.856C19.0535 6 18.9695 6.132 18.8614 6.252C18.7413 6.36 18.6093 6.444 18.4652 6.504C18.3211 6.564 18.1651 6.6 18.009 6.6C17.6848 6.6 17.3847 6.48 17.1565 6.252C17.0485 6.132 16.9645 6 16.9044 5.856C16.8444 5.712 16.8084 5.556 16.8084 5.4C16.8084 5.244 16.8444 5.088 16.9044 4.944C16.9645 4.788 17.0485 4.668 17.1565 4.548C17.4327 4.272 17.8529 4.14 18.2371 4.224C18.3211 4.236 18.3932 4.26 18.4652 4.296C18.5372 4.32 18.6093 4.356 18.6813 4.404C18.7413 4.44 18.8014 4.5 18.8614 4.548C18.9695 4.668 19.0535 4.788 19.1135 4.944C19.1736 5.088 19.2096 5.244 19.2096 5.4C19.2096 5.556 19.1736 5.712 19.1135 5.856Z" fill="#001d49"/>
-                                    </svg>
-                                </a>
-                            </li>
-                        </ul>
-                    </article>
-                    <article class="footer__footerWebsiteNavigationContainer">
-                        <h3 class="footer__footerHeadingH3 headingH3 headingH3--websiteNavigation">Website Navigation</h3>
-                        <ul class="footer__footerNavlist">
-                            <li class="footer__footerNavitem"><a href="#homeLink" class="footer__footerNavlink navlink navlink--footerNavlink">Home &rarr;</a></li>
-                            <li class="footer__footerNavitem"><a href="#aboutLink" class="footer__footerNavlink navlink navlink--footerNavlink">About &rarr;</a></li>
-                            <li class="footer__footerNavitem"><a href="#serviceLink" class="footer__footerNavlink navlink navlink--footerNavlink">Services &rarr;</a></li>
-                            <li class="footer__footerNavitem"><a href="#processLink" class="footer__footerNavlink navlink navlink--footerNavlink">Process &rarr;</a></li>
-                            <li class="footer__footerNavitem"><a href="#socialLink" class="footer__footerNavlink navlink navlink--footerNavlink">Social Media &rarr;</a></li>
-                            <li class="footer__footerNavitem"><a href="#contactLink" class="footer__footerNavlink navlink navlink--footerNavlink">Contact &rarr;</a></li>
-                            <li class="footer__footerNavitem"><a href="#googleMapsLink" class="footer__footerNavlink navlink navlink--footerNavlink">Google Maps &rarr;</a></li>
-                        </ul>
-                    </article>
-                    <article class="footer__footerLegalNoticeContainer">
-                        <h3 class="footer__footerHeadingH3 headingH3 headingH3--websiteNavigation">Legal Notices</h3>
-                        <ul class="footer__footerNavlist">
-                            <li class="footer__footerNavitem"><a href="" class="footer__footerNavlink navlink navlink--footerNavlink">Terms & Conditions &rarr;</a></li>
-                            <li class="footer__footerNavitem"><a href="" class="footer__footerNavlink navlink navlink--footerNavlink">Privacy Policy &rarr;</a></li>
-                        </ul>
-                    </article>
-            </nav>
+            <div class="footer__figureAndNavContainer">
+                <a class="navList__navLink navLink navLink--hamburgerMenuNavlink" href="#homeLink">
+                    <figure class="footer__figure">
+                        <img class="footer__logoImg" src="./img/Images/WebsiteImages/NylstroomPestLogo500by500.webp" alt="">
+                        <figcaption class="footer__figcaption">
+                            <h3 class="footer__headingH3 headingH3 headingH3--footerFigure">Nylstroom <br class="footer__figureLineBreak">Pest Control</h3>
+                        </figcaption>
+                    </figure>
+                </a>
+                <nav class="footer__footerNavigationContainer">
+                        <article class="footer__footerSocialMediaContainer">
+                            <h3 class="footer__footerHeadingH3 headingH3 headingH3--socialMedia">Social Media</h3>
+                            <ul class="footer__footerSocialMediaList">
+                                <li class="footer__footerNavitem">
+                                    <a href="" class="footer__footerNavlink navlink navlink--footerNavlink">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M21.4286 0H2.57143C1.88944 0 1.23539 0.270918 0.753154 0.753154C0.270918 1.23539 0 1.88944 0 2.57143L0 21.4286C0 22.1106 0.270918 22.7646 0.753154 23.2468C1.23539 23.7291 1.88944 24 2.57143 24H9.92411V15.8405H6.54911V12H9.92411V9.07286C9.92411 5.74339 11.9063 3.90429 14.9421 3.90429C16.3961 3.90429 17.9164 4.16357 17.9164 4.16357V7.43143H16.2413C14.5907 7.43143 14.0759 8.45571 14.0759 9.50625V12H17.7605L17.1712 15.8405H14.0759V24H21.4286C22.1106 24 22.7646 23.7291 23.2468 23.2468C23.7291 22.7646 24 22.1106 24 21.4286V2.57143C24 1.88944 23.7291 1.23539 23.2468 0.753154C22.7646 0.270918 22.1106 0 21.4286 0Z" fill="#001d49"/>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="footer__footerNavitem">
+                                    <a href="" class="footer__footerNavlink navlink navlink--footerNavlink">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M17.0365 0H6.97548C2.6053 0 0 2.604 0 6.972V17.016C0 21.396 2.6053 24 6.97548 24H17.0245C21.3947 24 24 21.396 24 17.028V6.972C24.012 2.604 21.4067 0 17.0365 0ZM12.006 16.656C9.4367 16.656 7.34766 14.568 7.34766 12C7.34766 9.432 9.4367 7.344 12.006 7.344C14.5753 7.344 16.6643 9.432 16.6643 12C16.6643 14.568 14.5753 16.656 12.006 16.656ZM19.1135 5.856C19.0535 6 18.9695 6.132 18.8614 6.252C18.7413 6.36 18.6093 6.444 18.4652 6.504C18.3211 6.564 18.1651 6.6 18.009 6.6C17.6848 6.6 17.3847 6.48 17.1565 6.252C17.0485 6.132 16.9645 6 16.9044 5.856C16.8444 5.712 16.8084 5.556 16.8084 5.4C16.8084 5.244 16.8444 5.088 16.9044 4.944C16.9645 4.788 17.0485 4.668 17.1565 4.548C17.4327 4.272 17.8529 4.14 18.2371 4.224C18.3211 4.236 18.3932 4.26 18.4652 4.296C18.5372 4.32 18.6093 4.356 18.6813 4.404C18.7413 4.44 18.8014 4.5 18.8614 4.548C18.9695 4.668 19.0535 4.788 19.1135 4.944C19.1736 5.088 19.2096 5.244 19.2096 5.4C19.2096 5.556 19.1736 5.712 19.1135 5.856Z" fill="#001d49"/>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </article>
+                        <div class="footer__navVerticalLine"></div>
+                        <article class="footer__footerWebsiteNavigationContainer">
+                            <h3 class="footer__footerHeadingH3 headingH3 headingH3--websiteNavigation">Website Navigation</h3>
+                            <ul class="footer__footerNavlist footer__footerNavlist--website">
+                                <li class="footer__footerNavitem footer__footerNavitem--website"><a href="#homeLink" class="footer__footerNavlink navlink navlink--footerNavlink">Home &rarr;</a></li>
+                                <li class="footer__footerNavitem footer__footerNavitem--website"><a href="#aboutLink" class="footer__footerNavlink navlink navlink--footerNavlink">About &rarr;</a></li>
+                                <li class="footer__footerNavitem footer__footerNavitem--website"><a href="#serviceLink" class="footer__footerNavlink navlink navlink--footerNavlink">Services &rarr;</a></li>
+                                <li class="footer__footerNavitem footer__footerNavitem--website"><a href="#processLink" class="footer__footerNavlink navlink navlink--footerNavlink">Process &rarr;</a></li>
+                                <li class="footer__footerNavitem footer__footerNavitem--website"><a href="#socialLink" class="footer__footerNavlink navlink navlink--footerNavlink">Social Media &rarr;</a></li>
+                                <li class="footer__footerNavitem footer__footerNavitem--website"><a href="#contactLink" class="footer__footerNavlink navlink navlink--footerNavlink">Contact &rarr;</a></li>
+                                <li class="footer__footerNavitem footer__footerNavitem--website"><a href="#googleMapsLink" class="footer__footerNavlink navlink navlink--footerNavlink">Google Maps &rarr;</a></li>
+                            </ul>
+                        </article>
+                        <div class="footer__navVerticalLine"></div>
+                        <article class="footer__footerLegalNoticeContainer">
+                            <h3 class="footer__footerHeadingH3 headingH3 headingH3--websiteNavigation">Legal Notices</h3>
+                            <ul class="footer__footerNavlist">
+                                <li class="footer__footerNavitem"><a href="" class="footer__footerNavlink navlink navlink--footerNavlink">Terms & Conditions &rarr;</a></li>
+                                <li class="footer__footerNavitem"><a href="" class="footer__footerNavlink navlink navlink--footerNavlink">Privacy Policy &rarr;</a></li>
+                            </ul>
+                        </article>
+                </nav>
+            </div>
             <address class="footer__footerAddressContainer">
                 <h3 class="footer__footerHeadingH3 headingH3 headingH3--websiteNavigation">Contact Details</h3>
-                <div class="footer__footerContactDetailItem">
-                    <p class="footer__footerContactDetailHeading paragraph paragraph--footerAddress">Mobile</p>
-                    <a id="footerMobileContactLink" class="footer__footerContactDetailLink" href="https://api.whatsapp.com/send?phone=+27745110199&text=Hi.%20I%20would%20like%20to%20book%20a%20consult%20for%20a%20quote.%20Please%20contact%20me." target="_blank">
-                        <svg class="footer__footerContactDetailIcon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M17.7071 13.7071L20.3552 16.3552C20.7113 16.7113 20.7113 17.2887 20.3552 17.6448C18.43 19.57 15.3821 19.7866 13.204 18.153L11.6286 16.9714C9.88504 15.6638 8.33622 14.115 7.02857 12.3714L5.84701 10.796C4.21341 8.61788 4.43001 5.56999 6.35523 3.64477C6.71133 3.28867 7.28867 3.28867 7.64477 3.64477L10.2929 6.29289C10.6834 6.68342 10.6834 7.31658 10.2929 7.70711L9.27175 8.72825C9.10946 8.89054 9.06923 9.13846 9.17187 9.34373C10.3585 11.7171 12.2829 13.6415 14.6563 14.8281C14.8615 14.9308 15.1095 14.8905 15.2717 14.7283L16.2929 13.7071C16.6834 13.3166 17.3166 13.3166 17.7071 13.7071Z" stroke="#001d49" stroke-width="2"/>
-                        </svg>
-                        <p class="footer__paragraph paragraph paragraph--footerAddressDetail">0745110199</p>
-                    </a>
-                </div>
-                <div class="footer__footerContactDetailItem">
-                    <p class="footer__footerContactDetailHeading paragraph paragraph--footerAddress">Email</p>
-                    <a class="footer__footerContactDetailLink" href="mailto: info@nylstroompest.co.za" target="_blank">
-                        <svg class="footer__footerContactDetailIcon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect x="4" y="6" width="16" height="12" rx="2" stroke="#001d49" stroke-width="2"/>
-                            <path d="M4 9L11.1056 12.5528C11.6686 12.8343 12.3314 12.8343 12.8944 12.5528L20 9" stroke="#001d49" stroke-width="2"/>
-                        </svg>
-                        <p class="footer__paragraph paragraph paragraph--footerAddressDetail">info@nylstroompest.co.za</p>
-                    </a>
-                </div>
-                <div class="footer__footerContactDetailItem">
-                    <p class="footer__footerContactDetailHeading paragraph paragraph--footerAddress">Address</p>
-                    <a class="footer__footerContactDetailLink" href="https://maps.app.goo.gl/FJoWryNnHtGoKcjV8" target="_blank">
-                        <svg class="footer__footerContactDetailIcon contact__contactDetailIcon--address" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M3 6.2C3 5.07989 3 4.51984 3.21799 4.09202C3.40973 3.71569 3.71569 3.40973 4.09202 3.21799C4.51984 3 5.0799 3 6.2 3H17.8C18.9201 3 19.4802 3 19.908 3.21799C20.2843 3.40973 20.5903 3.71569 20.782 4.09202C21 4.51984 21 5.0799 21 6.2V17.8C21 18.9201 21 19.4802 20.782 19.908C20.5903 20.2843 20.2843 20.5903 19.908 20.782C19.4802 21 18.9201 21 17.8 21H6.2C5.07989 21 4.51984 21 4.09202 20.782C3.71569 20.5903 3.40973 20.2843 3.21799 19.908C3 19.4802 3 18.9201 3 17.8V6.2Z" stroke="#001d49" stroke-width="2" stroke-linecap="round"/>
-                            <path d="M19 21L15 6.5" stroke="#001d49" stroke-width="2"/>
-                            <path d="M21 6L3 8" stroke="#001d49" stroke-width="2"/>
-                            <path d="M13 14.0882C13 15.9272 11.2611 17.2334 10.4311 17.7521C10.1647 17.9186 9.83526 17.9186 9.56892 17.7521C8.7389 17.2334 7 15.9272 7 14.0882C7 12.2353 8.4536 11 10 11C11.6 11 13 12.2353 13 14.0882Z" stroke="#001d49" stroke-width="2"/>
-                        </svg>
-                        <p class="footer__paragraph paragraph paragraph--footerAddressDetail">86 Pleinstraat, Modimolle, 0510</p>
-                    </a>
+                <div class="footer__footerContactDetailContainer">
+                    <div class="footer__footerContactDetailItem footer__footerContactDetailItem--number">
+                        <p class="footer__footerContactDetailHeading paragraph paragraph--footerAddress">Mobile</p>
+                        <a id="footerMobileContactLink" class="footer__footerContactDetailLink" href="https://api.whatsapp.com/send?phone=+27745110199&text=Hi.%20I%20would%20like%20to%20book%20a%20consult%20for%20a%20quote.%20Please%20contact%20me." target="_blank">
+                            <svg class="footer__footerContactDetailIcon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17.7071 13.7071L20.3552 16.3552C20.7113 16.7113 20.7113 17.2887 20.3552 17.6448C18.43 19.57 15.3821 19.7866 13.204 18.153L11.6286 16.9714C9.88504 15.6638 8.33622 14.115 7.02857 12.3714L5.84701 10.796C4.21341 8.61788 4.43001 5.56999 6.35523 3.64477C6.71133 3.28867 7.28867 3.28867 7.64477 3.64477L10.2929 6.29289C10.6834 6.68342 10.6834 7.31658 10.2929 7.70711L9.27175 8.72825C9.10946 8.89054 9.06923 9.13846 9.17187 9.34373C10.3585 11.7171 12.2829 13.6415 14.6563 14.8281C14.8615 14.9308 15.1095 14.8905 15.2717 14.7283L16.2929 13.7071C16.6834 13.3166 17.3166 13.3166 17.7071 13.7071Z" stroke="#001d49" stroke-width="2"/>
+                            </svg>
+                            <p class="footer__paragraph paragraph paragraph--footerAddressDetail">0745110199</p>
+                        </a>
+                    </div>
+                    <div class="footer__footerContactDetailItem">
+                        <p class="footer__footerContactDetailHeading paragraph paragraph--footerAddress">Email</p>
+                        <a class="footer__footerContactDetailLink" href="mailto: info@nylstroompest.co.za" target="_blank">
+                            <svg class="footer__footerContactDetailIcon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="4" y="6" width="16" height="12" rx="2" stroke="#001d49" stroke-width="2"/>
+                                <path d="M4 9L11.1056 12.5528C11.6686 12.8343 12.3314 12.8343 12.8944 12.5528L20 9" stroke="#001d49" stroke-width="2"/>
+                            </svg>
+                            <p class="footer__paragraph paragraph paragraph--footerAddressDetail">info@nylstroompest.co.za</p>
+                        </a>
+                    </div>
+                    <div class="footer__footerContactDetailItem">
+                        <p class="footer__footerContactDetailHeading paragraph paragraph--footerAddress">Address</p>
+                        <a class="footer__footerContactDetailLink" href="https://maps.app.goo.gl/FJoWryNnHtGoKcjV8" target="_blank">
+                            <svg class="footer__footerContactDetailIcon contact__contactDetailIcon--address" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M3 6.2C3 5.07989 3 4.51984 3.21799 4.09202C3.40973 3.71569 3.71569 3.40973 4.09202 3.21799C4.51984 3 5.0799 3 6.2 3H17.8C18.9201 3 19.4802 3 19.908 3.21799C20.2843 3.40973 20.5903 3.71569 20.782 4.09202C21 4.51984 21 5.0799 21 6.2V17.8C21 18.9201 21 19.4802 20.782 19.908C20.5903 20.2843 20.2843 20.5903 19.908 20.782C19.4802 21 18.9201 21 17.8 21H6.2C5.07989 21 4.51984 21 4.09202 20.782C3.71569 20.5903 3.40973 20.2843 3.21799 19.908C3 19.4802 3 18.9201 3 17.8V6.2Z" stroke="#001d49" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M19 21L15 6.5" stroke="#001d49" stroke-width="2"/>
+                                <path d="M21 6L3 8" stroke="#001d49" stroke-width="2"/>
+                                <path d="M13 14.0882C13 15.9272 11.2611 17.2334 10.4311 17.7521C10.1647 17.9186 9.83526 17.9186 9.56892 17.7521C8.7389 17.2334 7 15.9272 7 14.0882C7 12.2353 8.4536 11 10 11C11.6 11 13 12.2353 13 14.0882Z" stroke="#001d49" stroke-width="2"/>
+                            </svg>
+                            <p class="footer__paragraph paragraph paragraph--footerAddressDetail">86 Pleinstraat, Modimolle, 0510</p>
+                        </a>
+                    </div>
                 </div>
             </address>
             <div class="footer__footerCopyrightAndDevContainer">

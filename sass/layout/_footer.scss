@@ -1,11 +1,27 @@
 .footer {
       @include displayFlexColumn;
-      gap: 2rem;
+      gap: 3rem;
       background: linear-gradient(135deg, rgba($cp-dark-blue, .65), rgba($cp-darkGrey, .5), rgba($cp-grey, .3), rgba($cp-lightGrey, 1), rgba($cp-darkGrey, .5), rgba($cp-dark-blue, .64));
       border-top: 2px solid $cp-dark-blue;
+      width: 100%;
       padding: 5rem 1rem 1rem;
+      @include respond(tab-land) {
+            gap: 5rem;
+      }
+      &__figureAndNavContainer {
+            @include displayFlexColumn;
+            gap: 3rem;
+            @include respond(tab-land) {
+                  align-items: flex-start;
+                  gap: 5rem;
+            }
+      }
       &__figure {
             @include displayFlexColumn;
+            @include respond(tab-port) {
+                  @include displayFlexRow;
+                  gap: 3rem;
+            }
       }
       &__logoImg {
             display: flex;
@@ -14,25 +30,77 @@
             box-shadow: -3px 3px 25px 1px rgba($cp-richBlack, 1);
             width: 20rem;
             height: auto;
+            @include respond(tab-port) {
+                  width: clamp(10rem, 18vw, 14rem);
+            }
       }
       &__footerNavigationContainer {
             @include displayFlexColumn;
             gap: 2rem;
+            @include respond(tab-land) {
+                  @include displayFlexRow;
+                  justify-content: space-between;
+                  align-items: flex-start;
+                  gap: 1rem;
+            }
+      }
+      &__navVerticalLine {
+            display: none;
+            @include respond(tab-land) {
+                  align-self: center;
+                  display: block;
+                  background-color: rgba($cp-dark-blue, .15);
+                  width: 2px;
+                  height: 15rem;
+            }
       }
       &__footerSocialMediaContainer, &__footerWebsiteNavigationContainer, &__footerAddressContainer, &__footerLegalNoticeContainer {
             @include displayFlexColumn;
             gap: 1rem;
       }
+      @include respond(tab-land) {
+            &__footerSocialMediaContainer, &__footerWebsiteNavigationContainer, &__footerLegalNoticeContainer {
+                  align-items: flex-start;
+            }
+      }
       &__footerAddressContainer {
             gap: 1.75rem;
+            @include respond(tab-land) {
+                  align-items: flex-start;
+            }
+      }
+      &__footerContactDetailContainer {
+            @include respond(tab-land) {
+                  @include displayFlexRow;
+                  justify-content: space-between;
+                  align-items: flex-start;
+                  gap:2rem;
+            
+            }
       }
       &__footerContactDetailItem {
             @include displayFlexColumn;
             gap: 0rem;
+            @include respond(tab-land) {
+                  align-items: flex-start;
+                  flex: 0 0 300px;
+            }
+      }
+      &__footerContactDetailItem--number {
+            @include displayFlexColumn;
+            gap: 0rem;
+            @include respond(tab-land) {
+                  align-items: flex-start;
+                  flex: 0 0 100px;
+            }
       }
       &__footerContactDetailLink {
             @include displayFlexRow;
             gap: .5rem;
+            @include respond(tab-land) {
+                  align-items: flex-start;
+            
+            }
       }
       #footerMobileContactLink {
             margin-right: 2rem;
@@ -49,7 +117,24 @@
       &__footerNavlist {
             @include displayFlexColumn;
             gap: .25rem;
+            @include respond(tab-land) {
+                  align-items: flex-start;
+            }           
       }
+      // &__footerNavlist--website {
+      //       @include displayFlexColumn;
+      //       gap: .25rem;
+      //       @include respond(tab-port) {
+      //             @include displayFlexRow;
+      //             flex-wrap: wrap;
+      //             justify-content: flex-start;
+      //       }
+      // }
+      // &__footerNavitem--website {
+      //       @include respond(tab-port) {
+      //             flex: 1 0 200px;
+      //       }
+      // }
       &__footerDeveloperParagraph {
             @include displayFlexColumn;
             gap: 0rem;
