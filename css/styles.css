@@ -827,11 +827,24 @@ body {
   align-items: center;
   gap: 2rem;
   gap: 3rem;
+  width: min(100, 45rem);
+}
+@media (min-width: 37.5em) {
+  .footer__figureAndNavContainer {
+    width: min(100%, 55rem);
+  }
 }
 @media (min-width: 56.25em) {
   .footer__figureAndNavContainer {
     align-items: flex-start;
     gap: 5rem;
+    width: min(100%, 75rem);
+    padding: 1rem 5rem;
+  }
+}
+@media (min-width: 75em) {
+  .footer__figureAndNavContainer {
+    width: min(100%, 100rem);
   }
 }
 .footer__figure {
@@ -871,6 +884,7 @@ body {
   align-items: center;
   gap: 2rem;
   gap: 2rem;
+  width: 100%;
 }
 @media (min-width: 56.25em) {
   .footer__footerNavigationContainer {
@@ -911,11 +925,28 @@ body {
 }
 .footer__footerAddressContainer {
   gap: 1.75rem;
+  width: min(100, 45rem);
+}
+@media (min-width: 37.5em) {
+  .footer__footerAddressContainer {
+    width: min(100%, 55rem);
+  }
 }
 @media (min-width: 56.25em) {
   .footer__footerAddressContainer {
     align-items: flex-start;
+    gap: 2rem;
+    width: min(100%, 75rem);
+    padding: 1rem 5rem;
   }
+}
+@media (min-width: 75em) {
+  .footer__footerAddressContainer {
+    width: min(100%, 100rem);
+  }
+}
+.footer__footerContactDetailContainer {
+  width: 100%;
 }
 @media (min-width: 56.25em) {
   .footer__footerContactDetailContainer {

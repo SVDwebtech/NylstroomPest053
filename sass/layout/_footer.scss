@@ -11,9 +11,18 @@
       &__figureAndNavContainer {
             @include displayFlexColumn;
             gap: 3rem;
+            width: min(100, 45rem);
+            @include respond(tab-port) {
+                  width: min(100%, 55rem);
+            }
             @include respond(tab-land) {
                   align-items: flex-start;
                   gap: 5rem;
+                  width: min(100%, 75rem);
+                  padding: 1rem 5rem;
+            }
+            @include respond(desk) {
+                  width: min(100%, 100rem);
             }
       }
       &__figure {
@@ -37,6 +46,7 @@
       &__footerNavigationContainer {
             @include displayFlexColumn;
             gap: 2rem;
+            width: 100%;
             @include respond(tab-land) {
                   @include displayFlexRow;
                   justify-content: space-between;
@@ -65,11 +75,22 @@
       }
       &__footerAddressContainer {
             gap: 1.75rem;
+            width: min(100, 45rem);
+            @include respond(tab-port) {
+                  width: min(100%, 55rem);
+            }
             @include respond(tab-land) {
                   align-items: flex-start;
+                  gap: 2rem;
+                  width: min(100%, 75rem);
+                  padding: 1rem 5rem;
+            }
+            @include respond(desk) {
+                  width: min(100%, 100rem);
             }
       }
       &__footerContactDetailContainer {
+            width: 100%;
             @include respond(tab-land) {
                   @include displayFlexRow;
                   justify-content: space-between;
