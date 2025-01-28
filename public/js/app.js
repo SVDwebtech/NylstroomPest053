@@ -180,3 +180,8 @@ for(let item of navItems) {
     }, 800);
   });
 }
+
+// copyright date logic
+import { setCopyrightYear } from './modules/copyrightYearLogic.js';
+// Call the function to set the copyright year
+setCopyrightYear();
